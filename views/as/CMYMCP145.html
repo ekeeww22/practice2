@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>전송요구(자산목록) 완료</title>
+
+	<link type="text/css" rel="stylesheet" href="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link type="text/css" rel="stylesheet" href="../../js/lib/slick/slick.css">
+	<link type="text/css" rel="stylesheet" href="../../css/app.css">
+
+	<script src="../../js/lib/jquery/jquery-3.3.1.min.js"></script>
+	<script src="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="../../js/lib/slick/slick.js"></script>
+	<script src="../../js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+
+		<!-- content-header -->
+		<div class="content-header">
+			<button type="button" class="btn-history-back">뒤로</button>
+		</div>
+		<!-- // content-header -->
+
+		<!-- content-body -->
+		<div class="content-body">
+			
+			<!-- content, 카테고리-->
+			<div class="content as">
+				<!-- section, 화면ID (화면별 섹션 추가)-->
+				<div class="section CMYMCP145">
+                    <!-- 2021-06-28 마크업 추가 -->
+					<div class="top-location">
+						<ul>
+							<li class="end"><span>1</span></li>
+							<li class="end"><span>2</span></li>
+							<li class="end"><span>3</span></li>
+							<li class="active"><span>4</span></li>
+						</ul>
+					</div>
+					<!-- // 2021-06-28 마크업 추가 -->
+
+					<div class="result-box">
+                        <!-- <i class="icon48 icon-success"></i> 2021-09-14 삭제 -->
+						<i class="icon48 icon-success-interaction"></i><!-- 2021-09-14 추가 -->
+                        <p class="tit">
+                            상세정보 전송요구가 완료되었습니다.
+                        </p>
+                    </div>
+
+                    <!-- 2021-11-03 아코디언 리스트 UI변경 -->
+                    <div class="total-list-wrap">
+                        <dl class="total-list-caption">
+                            <dt>성공</dt>
+                            <dd class="success">3</dd>
+                            <dt>실패</dt>
+                            <dd class="fail">1</dd>
+                        </dl>
+                        <ul>
+                            <li>
+                                <div class="total-list-header">
+                                    <div class="account-name">
+                                        <i class="icon24">
+                                            <img src="/images/logo/icon40-bank-kb.svg" alt="KB국민은행" />
+                                        </i>
+                                        <strong>KB국민은행</strong>
+                                    </div>
+                                    <span class="txt fail">실패</span>
+                                </div>
+                                <div class="total-list-contents">
+                                    <div class="round-pale-box">
+                                        <!-- 2021-07-27 에러 메시지 추가  -->
+                                        <p class="info-txt">
+                                            <i class="icon16 icon-info"></i>
+                                            예기치 않는 오류가 발생하였습니다.<br />
+                                            동일 오류가 지속적 발생시 고객센터로 문의 바랍니다.<br />
+                                            <em>[UCPID_100]</em>
+                                        </p>
+                                        <!-- // 2021-07-27 에러 메시지 추가  -->
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="total-list-header">
+                                    <div class="account-name">
+                                        <i class="icon24">
+                                            <img src="/images/logo/icon40-card-kbcard.svg" alt="KB국민카드" />
+                                        </i>
+                                        <strong>KB국민카드</strong>
+                                    </div>
+                                    <span class="txt success">성공</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="total-list-header">
+                                    <div class="account-name">
+                                        <i class="icon24">
+                                            <img src="/images/logo/icon40-communication-sk.svg" alt="SK텔레콤" />
+                                        </i>
+                                        <strong>SK텔레콤</strong>
+                                    </div>
+                                    <span class="txt success">성공</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="total-list-header">
+                                    <div class="account-name">
+                                        <i class="icon24">
+                                            <img src="/images/sample/icon40-money-cupay.png" alt="coupang" />
+                                        </i>
+                                        <strong>쿠팡페이</strong>
+                                    </div>
+                                    <span class="txt success">성공</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // 2021-11-03 아코디언 리스트 UI변경 -->
+
+					<div class="btn-area bottom-fixed">
+                        <button type="button" class="btn-yellow"><span>확인</span></button>
+                    </div>
+					<div class="bottom-space"></div>
+				</div>
+				<!-- // section, 화면ID -->
+			</div>
+			<!-- // content -->
+
+		</div>
+		<!-- // content-body -->
+
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

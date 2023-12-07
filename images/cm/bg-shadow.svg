@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 343 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-shadow</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="343" height="300"/>
+        <rect id="path-3" x="0" y="0" width="260" height="290"/>
+        <path d="M56,32 L204,32 C220.568542,32 234,45.4314575 234,62 L234,290 L234,290 L26,290 L26,62 C26,45.4314575 39.4314575,32 56,32 Z" id="path-5"/>
+        <filter x="-14.9%" y="-11.2%" width="129.8%" height="124.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"/>
+        </filter>
+        <polygon id="path-7" points="0 224 188 224 188 0 0 0"/>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mydata-service-svg1" transform="translate(-16.000000, -214.000000)">
+            <g id="img_mydata_service01" transform="translate(16.000000, 214.000000)">                
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"/>
+                </mask>
+                <g id="area"/>
+                <g id="phone01" mask="url(#mask-2)">
+                    <g transform="translate(42.000000, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-3"/>
+                        </mask>
+                        <g id="area-copy" stroke="none" fill="none"/>
+                        <g id="Rectangle" stroke="none" fill="none" mask="url(#mask-4)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-5"/>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-5"/>
+                        </g>
+                        <path d="M151.352468,51.4776291 L116.864065,51.4776291 C115.589566,51.4776291 114.549227,50.4372902 114.549227,49.1627915 C114.549227,47.8882928 115.589566,46.847954 116.864065,46.847954 L151.352468,46.847954 C152.626967,46.847954 153.667306,47.8882928 153.667306,49.1627915 C153.667306,50.4372902 152.626967,51.4776291 151.352468,51.4776291" id="Fill-8" stroke="none" fill="#EEEEEE" fill-rule="evenodd"/>
+                        <path d="M101.068309,49.1627915 C101.068309,47.1523618 102.697393,45.5266233 104.704477,45.5266233 C106.714907,45.5266233 108.343991,47.1523618 108.343991,49.1627915 C108.343991,51.1732212 106.714907,52.7989597 104.704477,52.7989597 C102.697393,52.7989597 101.068309,51.1732212 101.068309,49.1627915" id="Fill-10" stroke="none" fill="#EEEEEE" fill-rule="evenodd"/>
+                        <g id="mask" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(36.000000, 66.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#path-7"/>
+                            </mask>
+                            <g id="Mask"/>
+                            
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

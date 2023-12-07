@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>내차구매</title>
+
+	<link type="text/css" rel="stylesheet" href="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link type="text/css" rel="stylesheet" href="../../js/lib/slick/slick.css">
+	<link type="text/css" rel="stylesheet" href="../../css/app.css">
+
+	<script src="../../js/lib/jquery/jquery-3.3.1.min.js"></script>
+	<script src="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="../../js/lib/slick/slick.js"></script>
+	<script src="../../js/uicomponent.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            UIComponent.Html.reset();
+        });
+    </script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+
+		<!-- content-header -->
+		<div class="content-header ">
+            <button type="button" class="btn-history-back">뒤로</button>
+            <h2>신용/체크카드 인증</h2>
+		</div>
+		<!-- // content-header -->
+
+		<!-- content-body -->
+		<div class="content-body">
+			
+			<!-- content, 카테고리-->
+			<div class="content bu">
+
+				<!-- section, 화면ID (화면별 섹션 추가)-->
+				<div class="section CMYMPH113">
+
+                    <!-- 2021-09-08 마크업 삭제  
+                    <h3 class="contents-title-300">약관동의</h3>
+                    -->
+
+                    <!-- 2021-09-08 .agree-box 마크업 위치 수정 : 전 -->
+
+                    <div class="inp-list-wrap">
+                        <ul>
+                            <li>
+                                <!-- 2021-08-13 마크업 변경으로 인한 삭제 
+                                <div class="select-box type-select default">
+                                    <label for="" class="inp-tit">카드사</label>
+                                    <select name="" id="">
+                                        <option value=""></option>
+                                        <option value="">국민카드</option>
+                                        <option value="">롯데카드</option>
+                                        <option value="">하나카드</option>
+                                    </select>
+                                </div>
+                                -->
+
+                                <!-- 2021-09-17 삭제
+                                    2021-08-13 마크업 변경으로 인한 추가                       
+                                <button type="button" class="btn-select"> 값이 입력되면 클래스 'active' 추가
+                                    <span class="tit">카드사</span>
+                                    <span class="txt">국민카드</span>
+                                    <i class="icon16 icon-arrow-bottom-gray"></i>
+                                </button>
+                                -->
+                                <!-- 2021-09-17 추가 -->
+                                <div class="select-box type-select default">
+                                    <label for="" class="inp-tit">카드사</label>
+                                    <select name="" id="">
+                                        <option value="">국민카드</option>
+                                        <option value="">롯데카드</option>
+                                        <option value="">하나카드</option>
+                                    </select>
+                                </div>
+                                <!-- // 2021-09-17 추가 -->
+
+                                <div class="form-box">
+                                    <label class="form-checkbox">
+                                        <input type="checkbox">
+                                        <i class="icon"></i>
+                                        <span class="txt">AMEX</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="inp-box type-card default"> <!-- 에러일 경우 클래스명 [.error] 추가시 오류메세지 노출 -->
+                                    <label for="" class="inp-tit">카드번호</label>
+                                    <div class="card-part card-part1">
+                                        <label class="pw-point">
+                                            <span class="point-active">1</span>
+                                            <span class="point-active">2</span>
+                                            <span class="point-active">3</span>
+                                            <span class="point-active">4</span>
+                                        </label>
+                                    </div>
+                                    <span class="hypen">-</span>
+                                    <div class="card-part card-part2">
+                                        <label class="pw-point">
+                                            <span class="point-active">1</span>
+                                            <span class="point-active">2</span>
+                                            <span class="point-active">3</span>
+                                            <span class="point-active">4</span>
+                                        </label>
+                                    </div>
+                                    <span class="hypen">-</span>
+                                    <input type="number" id="card-point3" class="card-point3" maxlength="4">
+                                    <span class="hypen">-</span>
+                                    <input type="number" id="card-point4" class="card-point4" maxlength="4" data-name="card-input-number4"> <!--연동되는 input의 id와 label의 for값은 동일하게 설정-->
+
+                                    <div class="pw-point-wrap">
+                                        <div class="card-part card-part4">
+                                            <label class="pw-point" for="card-point4" data-target="card-input-number4" data-module="pwPoint"> <!--연동되는 input의 id와 label의 for값은 동일하게 설정-->
+                                                <span class=""></span>
+                                                <span class=""></span>
+                                                <span class=""></span>
+                                                <span class=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="txt-error">오류메세지</p>
+                            </li>
+                            <li>
+                                <div class="inp-box type-basic default"> <!-- 에러일 경우 클래스명 [.error] 추가시 오류메세지 노출 -->
+                                    <label for="" class="inp-tit">이름</label>
+                                    <input type="text" value="김국민">
+                                    <button class="icon16 icon-close">삭제</button>
+                                </div>
+                                <p class="txt-error">오류메세지</p>
+                            </li>
+                            <li>
+                                <div class="inp-box type-mix default"> <!-- 에러일 경우 클래스명 [.error] 추가시 오류메세지 노출 -->
+                                    <label for="" class="inp-tit">생년월일</label><!-- 2021-08-13 문구수정 -->
+                                    <input type="number" maxlength="6" value="901203">
+                                    <span class="hypen">-</span>
+                                    <input type="number" class="inp-num active" maxlength="1" value="1">
+                                </div>
+                                <p class="txt-error">오류메세지</p>
+                            </li>
+                            <li>
+                                <div class="inp-box type-number default readonly"> <!-- 2021-08-13 클래스 추가 .readonly  -->
+                                    <label for="" class="inp-tit">휴대폰번호</label><!-- 2021-08-13 문구수정 -->
+                                    <input type="number" readonly value="01001234567">
+                                    <div class="confirm-wrap">
+                                        <button class="btn-rectangle">ARS인증요청</button><!-- 비활성화시 disabled 속성 추가 -->
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="bullet-list sm">
+                        <li>ARS 인증전화 수신 후 카드비밀번호 앞 2자리를 입력하세요 </li>
+                    </ul>                   
+
+                    <!-- 2021-09-14 동의 박스 체크아이콘과 텍스트링크 분리타입 : 기존 마크업 변경 -->
+                    <div class="agree-box">
+                        <div class="agree-top">
+                            <label class="form-checkbox all-check">
+                                <input type="checkbox">
+                                <i class="icon"></i>             
+                            </label>
+                            <a href="javascript:;" class="txt-link">카드사 본인확인 전체동의</a>
+                        </div>
+                        <ul class="agree-list">
+                            <li>
+                                <label class="form-checkbox sm">
+                                    <input type="checkbox">
+                                    <i class="icon"></i>                            
+                                </label>
+                                <a href="javascript:;" class="txt-link">개인정보 이용·제공 동의</a>
+                                <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                            </li>
+                            <li>
+                                <label class="form-checkbox sm">
+                                    <input type="checkbox">
+                                    <i class="icon"></i>                            
+                                </label>
+                                <a href="javascript:;" class="txt-link">고유식별정보 처리 동의</a>
+                                <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                            </li>
+                            <li>
+                                <label class="form-checkbox sm">
+                                    <input type="checkbox">
+                                    <i class="icon"></i>                            
+                                </label>
+                                <a href="javascript:;" class="txt-link">통신사 서비스 이용약관 동의</a>
+                                <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                            </li>
+                            <li>
+                                <label class="form-checkbox sm">
+                                    <input type="checkbox">
+                                    <i class="icon"></i>                            
+                                </label>
+                                <a href="javascript:;" class="txt-link">서비스 이용약관 동의</a>
+                                <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- // 2021-09-14 동의 박스 체크아이콘과 텍스트링크 분리타입 : 기존 마크업 변경 -->
+
+                    <div class="btn-area bottom-fixed">
+                        <button type="button" class="btn-yellow" disabled><span>확인</span></button>
+                    </div>
+                    <div class="bottom-space"></div>
+				</div>
+
+				<!-- // section, 화면ID -->
+			</div>
+			<!-- // content -->
+
+		</div>
+		<!-- // content-body -->
+
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

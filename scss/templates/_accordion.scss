@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* accordion-wrap */
+.accordion-list-wrap {
+    .accordion-link.type-mix {
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:3.2rem 0;
+        width:100%;
+        &::after {
+            position:absolute;
+            bottom:0;
+            left:-1.6rem;
+            content:'';
+            display:block;
+            width:calc(100% + 3.2rem);
+            height:0.8rem;
+            background:#f8f8f8;
+        }
+        .acco-left {
+            display:flex;
+            align-items:center;
+            strong {
+                line-height:2.6rem;
+                font-size:1.8rem;
+                font-weight:700;
+                color:#222;
+            }
+        }
+        .acco-right {
+            * {vertical-align:middle;}
+            strong {
+                display:inline-block;
+                line-height:2.4rem;
+                font-size:1.6rem;
+                font-weight:500;
+                color:#888;
+            }
+        }
+    }
+    & > ul {
+        & > li {
+            &:first-child {
+                .accordion-wrap {
+                    &.type-total {margin-top:0;}
+                }
+            }
+        }
+    }
+    /* type card wrap */
+    &.type-card-wrap {
+        margin-top:2.4rem;
+        padding:2.4rem;
+        border-radius:1.2rem;
+        box-shadow:0 0.4rem 1.6rem rgba(0,0,0,0.08);
+        background:#fff;
+        & > ul {
+            & > li {
+                & + li {
+                    margin-top:2.4rem;
+                    padding-top:2.4rem;
+                    border-top:0.1rem solid #eee;
+                }
+                .type-card {
+                    margin-top:0;
+                    padding:0;
+                    border-radius:0;
+                    box-shadow:none;
+                    background-color:transparent;
+                }
+            }
+        }
+    }
+}
+
+/* accordion */

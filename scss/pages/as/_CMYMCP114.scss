@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.CMYMCP114{
+    .body-120{ 
+        padding-top:1.6rem; 
+    }
+    .btn-agree-area {
+        padding-top:1.6rem; 
+        text-align:right;
+    }
+    .agree-ex-area {
+        position:relative;
+        height:42.1rem;
+
+        &.bc-ddd {
+            background-color:#ddd;
+        }
+
+        .txt-ex {
+            
+            font-weight:700;
+            font-size:2rem;
+            text-align:center;
+            line-height:3rem;
+            letter-spacing:-0.05rem;
+            color:#222;
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            left:0;
+            width:100%;
+        }
+    }
+}

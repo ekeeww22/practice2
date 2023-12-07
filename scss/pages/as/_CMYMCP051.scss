@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.CMYMCP051 {
+    .loading-car-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .img-wrap {
+            width:100%;
+        }
+
+        .tit {
+            margin-top:2.4rem;
+            line-height:2.6rem;
+            color:#222;
+            font-size:1.8rem;
+            font-weight:700;
+            letter-spacing:-0.04rem;
+        }
+
+        .gauge-bar {
+            position: relative;
+            margin-top: 1.6rem;
+            width: 18rem;
+            height: 0.8rem;
+            border-radius: 0.4rem;
+            background: #eee;
+            overflow: hidden;
+            
+            .gauge {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 0.8rem;
+                border-radius: 0.4rem;
+                background: #ffcc00;
+            }
+        }
+    }
+}

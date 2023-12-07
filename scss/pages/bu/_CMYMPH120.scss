@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.CMYMPH120 {
+    .result-box{
+        position:fixed;
+        top:calc(50% - 4.8rem);
+        left:0;
+        width:100%;
+        transform:translateY(-50%)
+    }
+    P {
+        &.tit,
+        &.txt {
+            padding-left:1.6rem;
+            padding-right:1.6rem;
+        }
+    }
+}

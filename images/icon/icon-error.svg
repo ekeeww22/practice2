@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>04_Icon/48/comm/icon-48-fail</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="02자산연결" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02자산연결_01서비스가입_01서비스이용불가안내_CMYMCP104" transform="translate(-165.000000, -269.000000)">
+            <g id="++-CON" transform="translate(16.000000, 267.998874)">
+                <g id="Group-7" transform="translate(148.000000, 0.000000)" filter="url(#filter-1)">
+                    <g transform="translate(1.000000, 1.000000)">
+                        <path d="M22.6290742,1.00308058 C28.8676081,1.00399864 34.4464443,3.44834105 38.4730207,7.40889037 C42.5221172,11.3915905 45,16.906244 45,23 C45,29.0744444 42.5371928,34.574427 38.5558099,38.5558099 C34.574427,42.5371928 29.0744444,45 23,45 C16.9255556,45 11.425573,42.5371928 7.44419011,38.5558099 C3.46280723,34.574427 1,29.0744444 1,23 C1,16.9905127 3.40940851,11.5442104 7.31461229,7.57388033 C11.2251014,3.59817684 16.6353913,1.10229735 22.6290742,1.00308058 Z" id="Stroke-1" stroke="#AAAAAA" stroke-width="2"></path>
+                        <line x1="23.1111111" y1="24.1106667" x2="23.1111111" y2="12.9995556" id="Stroke-3" stroke="#AAAAAA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <path d="M23.1088963,31.5551111 C22.8022296,31.5551111 22.5533407,31.804 22.5555629,32.1106667 C22.5555629,32.4173333 22.8044518,32.6662222 23.1111185,32.6662222 C23.4177852,32.6662222 23.666674,32.4173333 23.666674,32.1106667 C23.666674,31.804 23.4177852,31.5551111 23.1088963,31.5551111" id="Stroke-5" stroke="#AAAAAA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.wide-banner-area{
+    margin:0 -1.6rem; padding:2.4rem 1.6rem; background:#fdf8ea;
+
+    .banner-box{
+        position:relative; padding-right:12.6rem;
+        &:after{position:absolute; top:0; right:0; content:'';display:block;width:10rem;height:10rem;background:pink;}
+        b{display:block; font-size:1.4rem; font-weight:500; }
+        strong{display:block; margin-top:2px; line-height:3.4rem; font-size:2.4rem; font-weight:700; }
+        p{margin-top:2px; line-height:1.8rem; color:#555; font-size:1.3rem;}
+    }
+    .type-info-banner{
+        margin-top:1.6rem;
+        li{
+            position:relative; padding-left:7.2rem;
+            &:before{position:absolute; top:50%; margin-top:-2rem; left:1.6rem; content:'';display:block;width:4rem;height:4rem; outline:1px solid red; }
+            &:first-child:before{background:pink;}
+            &:nth-child(2):before{background:green;}
+            .card-header{font-weight:700;}
+            .card-container{
+                .txt{line-height:2.1rem; font-size:1.5rem; color:#555;}
+            }
+        }
+    }
+}
+
+.data-list{
+    .tit + .txt{margin-top:0.8rem;}
+    .tit{display:block; line-height:2.1rem; font-size:1.5rem; font-weight:700; color:#222; }
+    .txt{line-height:2.1rem; font-size:1.5rem; color:#555;}
+}

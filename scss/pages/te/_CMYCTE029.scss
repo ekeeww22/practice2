@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.CMYCTE029{
+    .modal-body {
+        .agree-box {
+            margin-top:1.6rem;
+            .agree-top {
+                padding: 1.6rem 4.3rem 1.6rem 4.8rem;
+                .icon16 {
+                    position:absolute;
+                    top:50%;
+                    transform:translateY(-50%);
+                    right:1.6rem;
+                }
+            }
+            ~ .body-120 {
+                margin-top:1.6rem;
+            }
+        }
+    }
+    
+    
+}

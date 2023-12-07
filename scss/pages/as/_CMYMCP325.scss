@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.CMYMCP325 {
+    .result-box {
+        position:fixed;
+        top:calc(50% - 4.8rem);
+        left:0;
+        width:100%;
+        transform:translateY(-50%)
+    }
+}

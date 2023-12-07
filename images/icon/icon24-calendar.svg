@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>04_Icon/24/Comm/icon_24_comm_calendar</title>
+    <g id="04_Icon/24/Comm/icon_24_comm_calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_m_calendar_l_24">
+            <g id="guidebox_24"></g>
+            <g id="icon" transform="translate(3.000000, 2.000000)">
+                <rect id="Rectangle" fill="#666666" x="4" y="12" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#666666" x="8" y="12" width="2" height="2"></rect>
+                <rect id="Rectangle" fill="#666666" x="12" y="12" width="2" height="2"></rect>
+                <path d="M16,2.25 C16.7593915,2.25 17.4468915,2.55780423 17.9445436,3.05545635 C18.4421958,3.55310847 18.75,4.24060847 18.75,5 L18.75,5 L18.75,19.75 L2,19.75 C1.24060847,19.75 0.553108469,19.4421958 0.0554563517,18.9445436 C-0.442195766,18.4468915 -0.75,17.7593915 -0.75,17 L-0.75,17 L-0.75,2.25 Z" id="Rectangle55" stroke="#666666" stroke-width="1.5"></path>
+                <line x1="0.45" y1="7.5" x2="17.55" y2="7.5" id="Line16" stroke="#666666" stroke-width="1.5" stroke-linecap="square"></line>
+                <line x1="4.5" y1="0" x2="4.5" y2="5" id="Stroke11" stroke="#666666" stroke-width="1.5"></line>
+                <line x1="13" y1="0" x2="13" y2="5" id="Stroke13" stroke="#666666" stroke-width="1.5"></line>
+            </g>
+        </g>
+    </g>
+</svg>

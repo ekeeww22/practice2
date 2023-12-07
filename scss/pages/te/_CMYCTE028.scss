@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.CMYCTE028{
+    .result-box{
+        padding:0;
+        .icon-car{display:inline-block;width:14rem; height:9.6rem; background:url("../images/te/icon-car-maintenancecost.svg") no-repeat center/contain;}
+        .txt{@include body-210; margin-top:0.4rem;}
+    }
+}

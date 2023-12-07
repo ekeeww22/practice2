@@ -1,0 +1,848 @@
+@charset "UTF-8";
+
+.CMYCMM003-1{
+    margin-top:-2.4rem;
+
+    .mydata-guide-top {
+        width:calc(100% + 3.2rem);
+        margin-left:-1.6rem;
+        background-color:#f6f8f9;
+        padding:2.4rem 1.6rem 3.2rem;
+
+        h4 {
+            font-weight:700;
+            font-size:1.8rem;
+            line-height:2.6rem;
+            letter-spacing:-0.04rem;
+            color:#222;
+        }
+
+        .con-txt {
+            display:block;
+            padding-top:1.6rem;
+            font-weight:400;
+            font-size:1.6rem;
+            line-height:2.4rem;
+            letter-spacing:-0.04rem;
+            color:#666;
+        }
+
+        .btn-area {
+            padding:1.6rem 0 0;
+            button {
+                line-height:4.8rem;
+
+                span {
+                    font-weight:500;
+                    font-size:1.6rem;
+                    line-height:2.4rem;
+                    letter-spacing:-0.04rem;
+                    color:#fff;
+                }
+                &.btn-skyblue {
+                    background: #2589ff;
+                }
+            }
+        } 
+    }
+
+    .contents-title-100 {
+        padding-top:4rem;
+
+        strong {
+            position:relative;
+            display:inline-block;
+            font-size:2.4rem;
+            letter-spacing:-0.04rem;
+            color:#222222;
+            &:after {
+                display:block;
+                content:"";
+                clear:both;
+                position:absolute;
+                bottom:0.2rem;
+                left:0;
+                width:100%;
+                height:0.9rem;
+                border-radius:0.55rem;
+                background-color:#ffde00;
+                z-index:-1;
+            }
+        }
+    }
+    
+    .slide-mydata-guide { 
+        position:relative;
+
+        .mydata-service-item {
+            text-align:center;
+            dt {
+                padding-top:3.2rem;
+
+                .slide-tit {
+                    font-weight:700;
+                    font-size:2rem;
+                    text-align:left;
+                    line-height:3rem;
+                    letter-spacing:-0.04rem;
+                    color:#222222;                    
+                }
+                .slide-txt {
+                    display:block;
+                    padding-top:0.4rem;
+                    font-weight:400;
+                    font-size:1.4rem;
+                    text-align:left;
+                    line-height:2rem;
+                    letter-spacing:-0.02rem;
+                    color:#666666;      
+                }
+            }
+            dd {
+                position:relative;
+                max-width:37.5rem;
+                margin-left:auto;
+                margin-right:auto;
+                .bg-img {           
+                    background-position:center center;
+                    background-repeat:no-repeat;
+                    background-size:contain;
+                    position:absolute;
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    width:100%;   
+                    img {    
+                        width:100%;
+                    }
+                }
+                .bg-shadow {
+                    position:absolute;
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    width:100%;
+                    background-position:center center;
+                    background-repeat:no-repeat;
+                    background-size:contain;  
+                }
+                .item-dt {
+                    position:absolute;
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    width:100%;
+                }
+                .po-z1 {
+                    z-index:1;
+                }
+                .po-z2 {                    
+                    position:absolute; 
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    width:100%;
+                    z-index:2;
+                }
+                .po-z3 {
+                    position:absolute; 
+                    top:0;
+                    bottom:0;
+                    left:0;
+                    width:100%;
+                    z-index:3;
+                }
+                .po-z4 {
+                    z-index:4;
+                }
+
+                .bg-mydata-img { width:100%; }
+            }            
+            &.mydata-service01-block {
+                dl {
+                    dd {
+                        .bg-img {
+                            background-image:url('../images/cm/img-mydata-service01-scroll.png');
+                        }
+                        .bg-shadow {
+                            background-image:url('../images/cm/bg-shadow.svg');
+                            img { 
+                                width:100%;
+                            }
+                        }
+                    }
+                }
+            }
+            &.mydata-service02-block {
+                dl {
+                    dd {
+                        .bg-img {
+                            background-image:url('../images/cm/img-mydata-service02-scroll.png');
+                        }
+                    }
+                }
+            }
+            &.mydata-service03-block {
+                dl {
+                    dd {
+                        .bg-img {
+                            background-image:url('../images/cm/img-mydata-service03-scroll.png');
+                        }
+                    }
+                }
+            }
+            &.mydata-service04-block {
+                dl {
+                    dd {
+                        .bg-img {
+                            background-image:url('../images/cm/img-mydata-service04-scroll.png');
+                        }
+                    }
+                }
+            }
+        }
+        .slick-dots {
+            position:absolute;
+            width:100%;
+            left:0;
+            bottom:0;
+            text-align:center;
+            font-size:0;
+            > li {
+                display:inline-block;
+                width:0.6rem;
+                height:0.6rem;
+                background-color:#222222;
+                opacity:0.1;
+                border-radius:50%;
+                margin-left:0.4rem;
+                margin-right:0.4rem;
+                > button {
+                    font-size:0;
+                    text-indent:-999999rem;
+                    line-height:0;
+                }
+                &.slick-active {
+                    opacity:1;
+                }
+            }
+        }
+    }
+
+    .mydata-service-item {
+        dd { 
+            opacity:0; 
+            width:0;
+            overflow:hidden;
+            min-height:328px;
+        }
+    }
+
+    @media screen and (max-width:375px) {
+        .mydata-service-item {
+            dd { 
+                min-height:308px;
+            }
+        }
+    }
+
+    @media screen and (max-width:320px) {
+        .mydata-service-item {
+            dd { 
+                min-height:255px;
+            }
+        }
+    }
+
+    .mydata-scroll-wrap {
+
+        ~ .mydata-scroll-wrap {
+            .mydata-service-item {
+                dl {
+                    dt {
+                        padding-top:6.4rem;
+                    }
+                }
+            }
+        }
+
+        .mydata-service-item {
+            dd { 
+                width:100%;
+                opacity:1; 
+            }
+        }   
+
+        .mydata-service01-block {
+            .coin1,
+            .coin2,
+            .coin3,
+            .coin4,
+            .coin5,
+            .coin6-inner,
+            .coin7-inner { opacity:0; }
+        }
+        .mydata-service02-block {
+            .car2 { opacity:0; }
+        }
+        .mydata-service03-block {
+            .service3-icon1-inner,
+            .service3-icon2-inner,
+            .service3-icon3-inner { opacity:0; }
+        }
+        .mydata-service04-block {
+            .twinkle1-inner,
+            .twinkle2-inner,
+            .bell1-inner,
+            .bell2-inner,
+            .bell3-inner,
+            .bell4-inner { opacity:0; }
+        }        
+
+        &.active {             
+
+            /* Animation Area */
+            .mydata-service01-block {
+                .coin-wrap { transform:translate(23.659608px, 236.000000px); opacity:1; }
+            
+                .coin1 {
+                    opacity:0;   
+                    animation-name:coin1-action;
+                    animation-duration:.4s;
+                    animation-delay:.4s;
+                    animation-timing-function:linear;
+                    animation-fill-mode:forwards;        
+                }
+                .coin2 {
+                    opacity:0;
+                    animation-name:coin2-action;
+                    animation-duration:.4s;
+                    animation-delay:.5s;
+                    animation-timing-function:linear;
+                    animation-fill-mode:forwards;                   
+                }
+                .coin3 {
+                    opacity:0;
+                    animation-name:coin3-action;
+                    animation-duration:.4s;
+                    animation-delay:.6s;
+                    animation-timing-function:linear;
+                    animation-fill-mode:forwards;       
+                }
+                .coin4 {
+                    opacity:0;
+                    animation-name:coin4-action;
+                    animation-duration:.4s;
+                    animation-delay:.7s;
+                    animation-timing-function:linear;
+                    animation-fill-mode:forwards;    
+                }
+                .coin5 {
+                    opacity:0;
+                    animation-name:coin5-action;
+                    animation-duration:.4s;
+                    animation-delay:.8s;
+                    animation-timing-function:linear;
+                    animation-fill-mode:forwards;     
+                }
+
+                .coin6 {            
+                    transform: translate(213.5px, 11.5px);
+                }
+
+                .coin6-inner { 
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    transform:rotate(-27deg);
+                    animation-name:coin6-action;
+                    animation-duration:.6s;
+                    animation-delay:.85s;
+                    animation-timing-function:ease-in;
+                    animation-fill-mode:forwards;
+                }
+
+                .coin7 {
+                    transform: translate(301.3px, 111.5px);
+                }
+                .coin7-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    transform:rotate(30deg);
+                    animation-name:coin7-action;
+                    animation-duration:.6s;
+                    animation-delay:1.05s;
+                    animation-timing-function:ease-in;
+                    animation-fill-mode:forwards;
+                }                
+            }
+
+            .mydata-service02-block {
+                .car-move { 
+                    transform:translate(237px, 251px); 
+                    animation-name:car-move;
+                    animation-duration:2s;
+                    animation-timing-function:ease-in;
+                }
+                .car-top {
+                    transform:translate(0px, 0px);
+                    animation-name:car-top;
+                    animation-duration:2s;
+                    animation-timing-function:ease-in;
+                }
+        
+                .car2 {
+                    opacity:1;
+                    transform:translate(332px, 251px) rotateY(180deg) scale(0.95,0.95);
+                    animation-name:car-move;
+                    animation-duration:1.2s;
+                    animation-timing-function: ease-in;
+                }
+                .car2 .car-body { 
+                    -webkit-animation: shake2 0.2s ease-in-out infinite alternate;
+                    animation: shake2 0.2s ease-in-out infinite alternate;
+                }
+                .car2 .car-line {
+                    transform-origin: center right;
+                    stroke-dasharray: 22;
+                    -webkit-animation: line-car 0.8s ease-in-out infinite;
+                    animation: line-car 0.8s ease-in-out infinite;
+                    -webkit-animation-fill-mode: both;
+                    animation-fill-mode: both;
+                }
+                .car2 .car-line.car-line-top {
+                    -webkit-animation-delay: 0s;
+                    animation-delay: 0s;
+                }
+                .car2 .car-line.car-line-bottom {
+                    -webkit-animation-delay: 0.1s;
+                    animation-delay: 0.1s;
+                }
+            }
+
+            .mydata-service03-block {
+                .service3-icon1 {
+                    transform:translate(253px, 13px);
+                }
+                .service3-icon1-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    animation-name:service3-icon1;
+                    animation-duration:.3s;
+                    animation-delay:.3s;
+                    animation-fill-mode:forwards;
+                }
+                .service3-icon2 {
+                    transform:translate(43.393939px, 205.545455px);
+                }
+                .service3-icon2-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    animation-name:service3-icon2;
+                    animation-duration:.3s;
+                    animation-delay:.6s;
+                    animation-fill-mode:forwards;
+                }
+                .service3-icon3 {
+                    transform:translate(238.181818px, 84.181818px);
+                }
+                .service3-icon3-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    animation-name:service3-icon3;
+                    animation-duration:.3s;
+                    animation-delay:.9s;
+                    animation-fill-mode:forwards;
+                }
+            }
+
+            .mydata-service04-block {
+                .twinkle1 {
+                    transform:translate(238.922764px, 19.52439px) scale(-1, 1);            
+                }
+                .twinkle2 {
+                    transform:translate(271.256098px, 6.191057px);
+                }
+                .bell1 {
+                    position:relative;
+                    z-index:1;
+                    transform:translate(239px, 31px);
+                }
+                .bell2 { display:none;
+                    position:relative;
+                    z-index:2;
+                    transform:translate(247px, 32px);
+                }
+                .bell3 { 
+                    position:relative;
+                    z-index:3;
+                    transform:translate(247px, 32px);
+                }
+                .bell4 { display:none;
+                    transform:translate(248px, 25px) rotate(15deg);
+                }
+                .twinkle1-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    animation-name:twinkle1;
+                    animation-duration:1.8s;
+                    animation-delay:.4s;
+                    animation-fill-mode:forwards;
+                    animation-direction:alternate;
+                    animation-iteration-count:infinite;
+                }
+                .twinkle2-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    animation-name:twinkle2;
+                    animation-duration:1.8s;
+                    animation-delay:.6s;
+                    animation-fill-mode:forwards;
+                    animation-direction:alternate;
+                    animation-iteration-count:infinite;
+                }
+                .bell1-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 50%;
+                    transform:rotate(15deg);
+                    animation-name:bell1;
+                    animation-duration:.7s;
+                    animation-delay:.4s;
+                }
+                .bell2-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 0;
+                    transform:rotate(15deg);
+                    animation-name:bell2;
+                    animation-duration:.4s;
+                    animation-delay:.9s;
+                    animation-fill-mode:forwards;
+                }
+                .bell3-inner {
+                    opacity:0;
+                    transform-box:fill-box;
+                    transform-origin:50% 0;
+                    transform:rotate(15deg);                    
+                    animation-name:bell3;
+                    animation-duration:.8s;
+                    animation-delay:1s;
+                    animation-fill-mode:forwards;
+                    animation-direction:alternate;
+                    animation-timing-function:linear;
+                    animation-iteration-count:infinite;
+                }       
+                
+            }
+
+        }
+    }    
+
+    @-webkit-keyframes car-move {
+        0%   { transform:translate(460px, 251px) rotateY(180deg) scale(0.95,0.95); }
+        100% { transform:translate(332px, 251px) rotateY(180deg) scale(0.95,0.95); }
+    }
+
+    @keyframes car-move {
+        0%   { transform:translate(460px, 251px) rotateY(180deg) scale(0.95,0.95); }
+        100% { transform:translate(332px, 251px) rotateY(180deg) scale(0.95,0.95); }
+    }
+
+    @-webkit-keyframes shake2 {
+        0%   { transform:translateY(-1%); }
+        100% { transform:translateY(-0.3%); }
+    }
+
+    @keyframes shake2 {
+        0%   { transform:translateY(-1%); }
+        100% { transform:translateY(-0.3%); }
+    }
+
+    @-webkit-keyframes line-car {
+        0%   { stroke-dashoffset:-22; }
+        25%  { stroke-dashoffset:-22; }
+        50%  { stroke-dashoffset:0; }
+        51%  { stroke-dashoffset:0; }
+        80%  { stroke-dashoffset:22; }
+        100% { stroke-dashoffset:22; }
+    }
+
+    @keyframes line-car {
+        0%   { stroke-dashoffset:-22; }
+        25%  { stroke-dashoffset:-22; }
+        50%  { stroke-dashoffset:0; }
+        51%  { stroke-dashoffset:0; }
+        80%  { stroke-dashoffset:22; }
+        100% { stroke-dashoffset:22; }
+    }
+
+    @-webkit-keyframes coin1-action {
+        0% { transform:translate(30.5px, 100px) rotate(-20deg); }
+        1% { transform:translate(30.5px, 100px) rotate(-20deg); opacity:1; } 
+        90% { transform:translate(30.5px, 263.015251px) rotate(-5deg); opacity:1; }
+        100% { transform:translate(30.5px, 263.015251px) rotate(0deg); opacity:1; }
+    }
+    @keyframes coin1-action {
+        0% { transform:translate(30.5px, 100px) rotate(-20deg); }
+        1% { transform:translate(30.5px, 100px) rotate(-20deg); opacity:1; } 
+        90% { transform:translate(30.5px, 263.015251px) rotate(-5deg); opacity:1; }
+        100% { transform:translate(30.5px, 263.015251px) rotate(0deg); opacity:1; }
+    }
+    @-webkit-keyframes coin2-action {
+        0% { transform:translate(30.5px, 100px) rotate(-20deg); }
+        1% { transform:translate(30.5px, 100px) rotate(-20deg); opacity:1; }
+        90% { transform:translate(30.5px, 255.753086px) rotate(-6deg); opacity:1; }
+        100% { transform:translate(30.5px, 255.753086px) rotate(0deg); opacity:1; }
+    }
+    @keyframes coin2-action {
+        0% { transform:translate(30.5px, 100px) rotate(-20deg); }
+        1% { transform:translate(30.5px, 100px) rotate(-20deg); opacity:1; }
+        90% { transform:translate(30.5px, 255.753086px) rotate(-6deg); opacity:1; }
+        100% { transform:translate(30.5px, 255.753086px) rotate(0deg); opacity:1; }
+    }
+    @-webkit-keyframes coin3-action {
+        0% { transform:translate(30.5px, 100px) rotate(-8deg); } 
+        1% { transform:translate(30.5px, 100px) rotate(-8deg); opacity:1; } 
+        90% { transform:translate(30.5px, 249px) rotate(-8deg); opacity:1; }
+        100% { transform:translate(30.5px, 249px) rotate(0deg); opacity:1; }
+    }
+    @keyframes coin3-action {
+        0% { transform:translate(30.5px, 100px) rotate(-8deg); } 
+        1% { transform:translate(30.5px, 100px) rotate(-8deg); opacity:1; } 
+        90% { transform:translate(30.5px, 249px) rotate(-8deg); opacity:1; }
+        100% { transform:translate(30.5px, 249px) rotate(0deg); opacity:1; }
+    }
+    @-webkit-keyframes coin4-action {
+        0% { transform:translate(30.5px, 100px); }
+        1% { transform:translate(30.5px, 100px); opacity:1; } 
+        90% { transform:translate(30.5px, 242.5px) rotate(-10deg); opacity:1; }
+        100% { transform:translate(23.5px, 242.5px) rotate(0deg); opacity:1; }
+    }
+    @keyframes coin4-action {
+        0% { transform:translate(30.5px, 100px); }
+        1% { transform:translate(30.5px, 100px); opacity:1; } 
+        90% { transform:translate(30.5px, 242.5px) rotate(-10deg); opacity:1; }
+        100% { transform:translate(23.5px, 242.5px) rotate(0deg); opacity:1; }
+    }
+    @-webkit-keyframes coin5-action {
+        0% { transform:translate(30.5px, 100px) rotate(-15deg); } 
+        1% { transform:translate(30.5px, 100px) rotate(-15deg); opacity:1; }
+        90% { transform:translate(30.5px, 236px) rotate(-15deg); opacity:1; }
+        100% { transform:translate(30.5px, 236px) rotate(0deg); opacity:1; }
+    }
+    @keyframes coin5-action {
+        0% { transform:translate(30.5px, 100px) rotate(-15deg); } 
+        1% { transform:translate(30.5px, 100px) rotate(-15deg); opacity:1; }
+        90% { transform:translate(30.5px, 236px) rotate(-15deg); opacity:1; }
+        100% { transform:translate(30.5px, 236px) rotate(0deg); opacity:1; }
+    }
+    @-webkit-keyframes coin6-action {
+        0% { transform:rotate(-27deg) scale(0.1,0.1); opacity:0; } 
+        50% { transform:rotate(-27deg) scale(1.2,1.2); opacity:1; }
+        100% { transform:rotate(-27deg) scale(1,1); opacity:1; }
+    }
+    @keyframes coin6-action {
+        0% { transform:rotate(-27deg) scale(0.1,0.1); opacity:0; } 
+        50% { transform:rotate(-27deg) scale(1.2,1.2); opacity:1; }
+        100% { transform:rotate(-27deg) scale(1,1); opacity:1; }
+    }
+    @-webkit-keyframes coin7-action {
+        0% { transform:rotate(30deg) scale(0.5,0.5); opacity:0; } 
+        50% { transform:rotate(30deg) scale(1.2,1.2); opacity:1; }
+        100% { transform:rotate(30deg) scale(1,1); opacity:1; }
+    }
+    @keyframes coin7-action {
+        0% { transform:rotate(30deg) scale(0.5,0.5); opacity:0; } 
+        50% { transform:rotate(30deg) scale(1.2,1.2); opacity:1; }
+        100% { transform:rotate(30deg) scale(1,1); opacity:1; }
+    }
+
+    @-webkit-keyframes service3-icon1 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    }
+    @keyframes service3-icon1 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    }                
+    @-webkit-keyframes service3-icon2 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    }
+    @keyframes service3-icon2 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    }
+    @-webkit-keyframes service3-icon3 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    }
+    @keyframes service3-icon3 {
+        0%   { transform:scale(0,0); opacity:0; }
+        80%  { transform:scale(1.1,1.1); opacity:1; }
+        100% { transform:scale(1,1); opacity:1; }
+    } 
+
+    @keyframes bell1 {
+        0%   { transform:rotate(15deg) scale(0,0); opacity:0; }
+        1%   { transform:rotate(15deg) scale(0,0); opacity:0; }
+        50%  { transform:rotate(15deg) scale(1.1,1.1); opacity:1; }
+        80%  { transform:rotate(15deg) scale(1,1); opacity:1; }
+        90%  { transform:rotate(15deg) scale(1,1); opacity:1; }
+        100% { display:none; }
+    }
+    @-webkit-keyframes bell1 {
+        0%   { transform:rotate(15deg) scale(0,0); opacity:0; }
+        1%   { transform:rotate(15deg) scale(0,0); opacity:0; }
+        50%  { transform:rotate(15deg) scale(1.1,1.1); opacity:1; }
+        90%  { transform:rotate(15deg) scale(1,1); opacity:1; }
+        100% { display:none; }
+    }
+    @keyframes bell2 {
+        0% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        90% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        99% { transform:rotate(10deg) scale(1,1); opacity:1; }
+        100% { transform:rotate(10deg) scale(1,1); opacity:0; }
+    }
+    @-webkit-keyframes bell2 {
+        0% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        90% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        99% { transform:rotate(10deg) scale(1,1); opacity:1; }
+        100% { transform:rotate(10deg) scale(1,1); opacity:0; }
+    }
+    @keyframes bell3 {
+        0% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        100% { transform:rotate(-15deg) scale(1,1); opacity:1; }
+    }
+    @-webkit-keyframes bell3 {
+        0% { transform:rotate(15deg) scale(1,1); opacity:1; }
+        100% { transform:rotate(-15deg) scale(1,1); opacity:1; }
+    }
+    @keyframes twinkle1 {
+        0% { transform:scale(1,1); opacity:0; }
+        25% { transform:scale(0.6,0.6); opacity:1; }
+        50% { transform:scale(1,1); opacity:0; }
+        75% { transform:scale(0.6,0.6); opacity:1; }
+        100% { transform:scale(1,1); opacity:0; }
+    }
+    @-webkit-keyframes twinkle1 {
+        0% { transform:scale(1,1); opacity:0; }
+        25% { transform:scale(0.6,0.6); opacity:1; }
+        50% { transform:scale(1,1); opacity:0; }
+        75% { transform:scale(0.6,0.6); opacity:1; }
+        100% { transform:scale(1,1); opacity:0; }
+    }
+    @keyframes twinkle2 {
+        0% { transform:scale(1,1); opacity:0; }
+        25% { transform:scale(0.6,0.6); opacity:1; }
+        50% { transform:scale(1,1); opacity:0; }
+        75% { transform:scale(0.6,0.6); opacity:1; }
+        100% { transform:scale(1,1); opacity:0; }
+    }
+    @-webkit-keyframes twinkle2 {
+        0% { transform:scale(1,1); opacity:0; }
+        25% { transform:scale(0.6,0.6); opacity:1; }
+        50% { transform:scale(1,1); opacity:0; }
+        75% { transform:scale(0.6,0.6); opacity:1; }
+        100% { transform:scale(1,1); opacity:0; }
+    }   
+    
+    .line-sortation {
+        width:calc(100% + 3.2rem);
+        margin-left:-1.6rem;
+        margin-top:4rem;
+        margin-right:0;
+        margin-bottom:0;
+        border:0;
+        height:0.8rem;
+        background-color:#f8f8f8;
+    }
+
+    .qna-area {
+        padding-top:3.2rem;
+
+        h4 {
+            font-weight:700;
+            font-size:1.68em;
+            line-height:2.6rem;
+            letter-spacing:-0.04rem;
+            color:#222;
+        }
+        .qna-item {
+            padding-top:1.6rem;
+            dt {
+                position:relative;
+                padding-left:3.3rem;
+
+                .icon-txt {
+                    position:absolute;
+                    top:0.2rem;
+                    left:0;
+                    display:inline-block;
+                    border-radius:1.2rem;
+                    width:2.5rem;
+                    height:2rem;
+                    line-height:2rem;
+                    text-align:center;
+                    font-weight:400;
+                    font-size:1.2rem;                    
+                    letter-spacing:-0.02rem;
+                    color:#222;
+                    background-color:#ffcc00;
+                }
+
+                line-height:2.4rem;
+                font-weight:500;
+                font-size:1.6rem;                    
+                letter-spacing:-0.04rem;
+                color:#222;
+            }
+            dd {
+                position:relative;
+                margin-top:0.8rem;
+                padding-left:3.3rem;
+
+                .icon-txt {
+                    position:absolute;
+                    top:0.2rem;
+                    left:0;
+                    display:inline-block;
+                    border-radius:1.2rem;
+                    width:2.5rem;
+                    height:2rem;
+                    line-height:2rem;
+                    text-align:center;
+                    font-weight:400;
+                    font-size:1.2rem;                    
+                    letter-spacing:-0.02rem;
+                    color:#666;
+                    background-color:#f6f8f9;
+                }
+
+                line-height:2.4rem;
+                font-weight:500;
+                font-size:1.6rem;                    
+                letter-spacing:-0.04rem;
+                color:#666;
+            }
+
+            ~ .qna-item {
+                margin-top:2.4rem;
+                padding-top:2.4rem;
+                border-top:1px solid #eee;
+            }
+        }
+    }
+}

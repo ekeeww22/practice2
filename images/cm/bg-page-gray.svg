@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="88px" viewBox="0 0 375 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bottom_bg_gradation_80</title>
+    <defs>
+        <linearGradient x1="54.1777912%" y1="76.3236337%" x2="54.1777912%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F6F8F9" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="WSG" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13BottomSheet(IOS)" transform="translate(-80.000000, -909.000000)" fill="url(#linearGradient-1)">
+            <g id="#-Con" transform="translate(80.000000, 160.000000)">
+                <g id="+-Device" transform="translate(0.000000, 54.000000)">
+                    <g id="++-Bottom-Sheet" transform="translate(0.000000, 44.000000)">
+                        <g id="플로팅버튼" transform="translate(0.000000, 651.000000)">
+                            <rect id="bottom_bg_gradation_80" transform="translate(187.500000, 44.000000) scale(1, -1) translate(-187.500000, -44.000000) " x="0" y="0" width="375" height="88"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

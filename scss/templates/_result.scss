@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* result */
+.result-box {
+    padding:14rem 0;
+    text-align:center;
+    .icon48 {
+        & + .txt {
+            line-height:2rem;
+            font-size:1.4rem;
+            color:#666;
+        }
+    }
+    .icon-logo {
+        display:block;
+        margin:0 auto;
+        width:12rem;
+        height:6.4rem;
+        img {width:100%;}
+    }
+    & > .tit {
+        margin-top:1.6rem;
+        line-height:2.6rem;
+        font-size:1.8rem;
+        font-weight:700;
+        color:#222;
+    }
+    & > .txt {
+        margin-top:0.8rem;
+        line-height:2.4rem;
+        font-size:1.6rem;
+        color:#666;
+    }
+}

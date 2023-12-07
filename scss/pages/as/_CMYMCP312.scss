@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.CMYMCP312{
+    .property-list{
+        margin-top:1.6rem;
+        padding:1.6rem;
+        border-radius:1.2rem;
+        @include line-color-gray-200;
+        > li{
+            margin-top:1.6rem;
+            padding:0;
+            border:none;
+            border-radius:0;
+            &:first-child{
+                margin-top:0;
+            }
+            .box{
+                .tit{
+                    white-space:nowrap;
+                    text-overflow:ellipsis;
+                    overflow:hidden;
+                }
+            }
+        }
+    }
+    .bullet-list{
+        margin-top:2.4rem;
+    }
+    .total-list-wrap { padding-top:1.6rem; 
+        .total-list-header {
+            .account-name { font-size:0; }
+        }
+    }
+    
+}

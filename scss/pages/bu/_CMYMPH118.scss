@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.CMYMPH118 {
+    min-height:calc(100vh - 10rem);
+
+    .round-box-yellow-line {
+        padding:2.4rem 2.4rem 4.9rem;
+        box-sizing:border-box;
+        border:0.3rem solid #ffcc00;
+        border-radius:1.2rem;
+        background-color:#fff;
+        box-shadow:0 0.4rem 1.6rem rgba(0,0,0,0.06);
+
+        .top-tit-area {
+            padding-bottom:4rem;
+
+            .img-logo {
+                width:9rem;
+                margin-left:auto;
+                margin-right:auto;
+                img { 
+                    width:100%;
+                }
+            }
+            .tit-big {
+                margin-top:0.8rem;
+                display:block;
+                font-weight:700;
+                font-size:3rem;
+                text-align:center;
+                line-height:4rem;
+                letter-spacing:-0.04rem;
+                color:#222;
+            }
+            .tit-em {
+                display:block;
+                font-weight:400;
+                font-size:1.2rem;
+                text-align:center;
+                line-height:1.6rem;
+                letter-spacing:0.02rem;
+                color:#888;
+            }
+        }
+
+        .bottom-alert-txt {
+            .top-icon-area {
+                text-align:center;
+            }
+            .txt {
+                display:block;
+                text-align:center;
+                font-weight:400;
+                font-size:1.4rem;
+                line-height:2rem;
+                letter-spacing:-0.02rem;
+                color:#666;
+                padding-top:0.8rem;
+                ~ .txt {
+                    padding-top:1.6rem;
+                }
+            }
+        }
+    }
+
+    .info-txt {
+        margin-top:1.6rem;
+        i {
+            top:0.3rem;
+        }
+    }
+
+    .btn-area {
+        &.bottom-fixed {
+            background:url(../images/cm/bg-page-gray.svg) no-repeat;
+            background-size:cover;
+        }
+    }
+
+    .accordion-wrap {
+        margin-top:3.2rem;
+        background-color:#fff;
+    }
+}

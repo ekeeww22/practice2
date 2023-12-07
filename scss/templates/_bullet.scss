@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* bullet list */
+.bullet-wrap {
+    .tit {
+        margin-bottom:1.6rem;
+        line-height:2.6rem;
+        font-size:1.8rem;
+        font-weight:700;
+        color:#222;
+    }
+}
+
+.bullet-list {
+    li {
+        position:relative;
+        margin-top:1.6rem;
+        padding-left:1.2rem;
+        line-height:2.4rem;
+        font-size:1.6rem;
+        color:#666;
+        &:first-child {margin-top:0;}
+        &::before {
+            position:absolute;
+            display:block;
+            content:'';
+            top:1rem;
+            left:0;
+            width:0.4rem;
+            height:0.4rem;
+            border-radius:50%;
+            background:#888;
+        }
+        .bullet-list {
+            &.sm {margin-top:0.8rem;}
+        }
+    }
+    &.sm {
+        li {
+            margin-top:0.8rem;
+            padding-left:0.8rem;
+            line-height:2rem;
+            font-size:1.4rem;
+            color:#666;
+            &:first-child {margin-top:0;}
+            &::before {
+                top:0.9rem;
+                width:0.2rem;
+                height:0.2rem;
+            }
+        }
+    }
+}

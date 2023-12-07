@@ -1,0 +1,68 @@
+/* btn-txt */
+.btn-txt {
+    position:relative; display:inline-block; line-height:2.4rem; font-size:1.6rem; color:#666;
+    &::after {position:absolute; bottom:0.2rem; left:0; display:block; content:''; width:100%; height:0.1rem; background:#aaa;}
+    &.sm {
+        line-height:2rem; font-size:1.4rem;
+        &::after {bottom:0;}
+    }
+}
+
+/* btn-txt-arrow */
+.btn-txt-arrow {
+    display:inline-block; 
+    span {
+        line-height:2.4rem; vertical-align:middle; font-size:1.6rem; font-weight:500; color:#222;
+        & + .icon16 {margin-left:0.4rem;}
+    }
+    .icon16 {vertical-align:middle;}
+}
+
+/* btn-round */
+.btn-round {
+    padding:0 0.8rem; line-height:2.6rem; text-align:center; border-radius:1.4rem; font-size:1.4rem;
+    &.bg-yellow {border:0.1rem solid #ffcc00; background:#ffcc00; color:#222;}
+    &.bg-gray {border:0.1rem solid #eee; background:#eee; color:#222;}
+}
+
+/* 버튼 height - 48 */
+.btn-wrap {
+    a,button {
+        display:block; width:100%; line-height:4.6rem; text-align:center; border-radius:1.2rem; font-size:1.6rem; font-weight:500; color:#222;
+        span {display:inline-block; line-height:2.4rem; vertical-align:middle; font-size:1.6rem; font-weight:500; color:#222;}
+        i {margin-right:0.4rem;}
+    }
+    .btn-border-gray {border:0.1rem solid #ddd; background:#fff;}
+    .btn-bg-yellow {border:0.1rem solid #ffcc00; background:#ffcc00;}
+}
+
+/* btn-select */
+.btn-select {
+    position:relative; display:flex; justify-content:center; flex-direction:column; width:100%; height:6.4rem; border-bottom:0.1rem solid #eee;
+    
+    .tit {display:block; line-height:2.4rem; text-align:left; font-size:1.6rem; color:#888;}
+    .txt {
+        display:none; margin-top:0.6rem; line-height:2.6rem; text-align:left; font-size:1.8rem; font-weight:500; color:#222;
+        b{ vertical-align:middle; display:inline-block; width:45%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+        em{vertical-align:middle; display:inline-block;}
+    }
+    .icon16 {position:absolute; top:50%; right:1.6rem; transform:translateY(-50%);}
+    &.active {
+        .tit {line-height:2rem; font-size:1.4rem; color:#666;}
+        .txt {display:block;}
+    }
+    &:disabled {
+        .txt {color:#888;}
+    }
+}
+
+.toggle1{
+    display: none;
+    &.active {display:block;}
+}
+
+/* btn-rectangle */
+.btn-rectangle {
+    display:inline-block; padding:0.6rem 0.8rem; line-height:1.6rem; height:2.8rem; border:0.1rem solid #ddd; border-radius:0.4rem; font-size:1.2rem; background:#fff; color:#666; word-break: keep-all;
+    &:disabled {border:0.1rem solid #f8f8f8; background:#f8f8f8; color:#888;}
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.CMYMCP188{
+    .item-list{
+        margin-top:3.2rem;
+        dt{
+            @include contents-title-300;
+        }
+        dd{
+            margin-top:1.6rem;
+            @include body-120;
+            &.txt-red{
+                @include contents-title-200;
+                @include option-color-red-100;
+            }
+            &.txt-blue{
+                @include contents-title-200;
+                @include option-color-blue-100;
+            }
+            & + dt{
+                margin-top:3.2rem;
+            }
+            .body-100{
+                & + .body-200{
+                    margin-top:1.6rem;
+                }
+            }
+            .body-120{
+                margin-top:1.6rem;
+                & + .body-100{
+                    margin-top:2.4rem;
+                }
+            }
+            .body-200{
+                & + .body-210{
+                    margin-top:0.8rem;
+                }
+            }
+            .body-210{
+                & + .body-200{
+                    margin-top:2.4rem;
+                }
+            }
+            .table-wrap{
+                margin-top:0.8rem;
+                table{
+                    thead{
+                        th{
+                            @include body-100;
+                        }
+                    }
+                    tbody{
+                        td{
+                            &.bold{
+                                font-weight:700;
+                            }
+                            h5{
+                                display:flex;
+                                align-items:center;
+                                @include body-200;
+                                @include font-color-black-100;
+                                .icon24{
+                                    margin-right:0.8rem;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bullet-list{
+                    & + p{
+                        margin-top:0.8rem;
+                    }
+                }
+            }
+            .check-area{
+                margin-top:1.6rem;
+                padding:0 1.6rem;
+                border-bottom:1px solid #eee;
+                .tit{
+                    @include body-210;
+                    strong{
+                        @include font-color-black-100;
+                        font-weight:700;
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
+    }
+}

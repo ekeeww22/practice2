@@ -1,0 +1,280 @@
+<div class="modal-wrap CMYMCP153" data-type="toast" data-uicomponent="modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>상세정보 전송요구서</h3><!-- 2021-10-28 : 10/26에 수정된 타이틀 -->
+            <button class="modal-close">닫기</button>
+        </div>
+        <div class="modal-body">
+            <dl class="item-list">
+                <dt>정보제공자(전송요구를 받는자)</dt>
+                <dd>기관명1, 기관명2, 기관명3, 기관명4, 기관명5, 기관명6, …, 기관명N</dd>
+                <dt>전송을 요구하는 개인신용정보</dt>
+                <dd>
+                    <!-- 2021-09-30 항목 순서 변경 -->
+                    <div class="table-wrap">
+                        <table>
+                            <caption>테이블</caption>
+                            <colgroup>
+                                <col style="width:10.5rem">
+                                <col style="">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">은행</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>수신계좌 정보</li>
+                                            <li>투자상품 정보</li>
+                                            <li>대출상품 정보</li>
+                                            <li>개인형 IRP 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">카드</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>카드 정보</li>
+                                            <li>포인트 정보</li>
+                                            <li>청구·결제 정보 및 리볼빙 정보</li>
+                                            <li>대출상품 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">금융투자</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>계좌 정보</li>
+                                            <li>개인형 IRP 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">보험</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>보험 정보</li>
+                                            <li>대출상품 정보</li>
+                                            <li>개인형 IRP 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">전자금융</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>선불전자지급 수단 정보</li>
+                                            <li>결제 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">할부금융</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>대출상품 또는 운용리스 정보</li><!-- 2021-10-01 내용수정 -->
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">보증보험</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>보증보험 정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">통신</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>통신정보</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- // 2021-09-30 항목 순서 변경 -->
+                </dd>
+
+                <!-- 2021-11-17 기능적합성 관련 선택항목 추가 -->
+                <dd>
+                    <div class="radio-pop-area">
+                        <h6>적요 또는 거래메모 정보 선택</h6>
+                        <ul class="radio-list">
+                            <li>
+                                <label class="form-radio" for="radio1-1">
+                                    <input type="radio" name="radio1" id="radio1-1">
+                                    <i class="icon"></i>
+                                    <span class="txt">예</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="form-radio" for="radio1-2">
+                                    <input type="radio" name="radio1" id="radio1-2">
+                                    <i class="icon"></i>
+                                    <span class="txt">아니오</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="radio-pop-area">
+                        <h6>가맹점명 및 사업자등록번호정보 선택</h6>
+                        <ul class="radio-list">
+                            <li>
+                                <label class="form-radio" for="radio2-1">
+                                    <input type="radio" name="radio2" id="radio2-1">
+                                    <i class="icon"></i>
+                                    <span class="txt">예</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="form-radio" for="radio2-2">
+                                    <input type="radio" name="radio2" id="radio2-2">
+                                    <i class="icon"></i>
+                                    <span class="txt">아니오</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="radio-pop-area">
+                        <h6>상품구매 카테고리 정보 선택</h6>
+                        <ul class="radio-list">
+                            <li>
+                                <label class="form-radio" for="radio3-1">
+                                    <input type="radio" name="radio3" id="radio3-1">
+                                    <i class="icon"></i>
+                                    <span class="txt">예</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="form-radio" for="radio3-2">
+                                    <input type="radio" name="radio3" id="radio3-2">
+                                    <i class="icon"></i>
+                                    <span class="txt">아니오</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+                <!-- // 2021-11-17 기능적합성 관련 선택항목 추가 -->
+
+                <!-- 2021-10-28 해당 업권 및 전송을 요구하는 개인신용정보 유형에 해당할 때만 노출 -->
+                <!-- 2021-10-01 위치 재조정 -->
+                <dt>상세정보 전송요구 시 유의사항</dt>
+                <dd>
+                    정보 전송은 본인의 책임과 판단 하에 신중하게 결정하여 주시기 바랍니다.
+                    <!-- 2021-09-30 항목 수정 -->
+                    <div class="table-wrap">
+                        <table>
+                            <caption>테이블</caption>
+                            <colgroup>
+                                <col style="width:10.5rem">
+                                <col style="">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">은행</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>수신계좌 정보</li>
+                                        </ul>
+                                        <p>은행업권 수신계좌 거래내역 정보에는 송금인·수취인명 정보 등 본인의 사생활 및 경제활동 등에 관련된 <strong>적요정보</strong>가 포함되어 있습니다.</p><!-- 2021-10-29 문구수정 -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">카드</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>카드 정보</li>
+                                        </ul>
+                                        <p>카드업권 승인내역 정보에는 소비생활 등에 관련된 <strong>가맹점명 및 사업자등록번호정보</strong>가 포함되어 있습니다.</p>
+                                        <ul class="bullet-list sm">
+                                            <li>청구·결제 정보 및 리볼빙 정보</li>
+                                        </ul>
+                                        <p>카드업권 청구정보에는 소비생활 등에 관련된 <strong>가맹점명 및 사업자등록번호정보</strong>가 포함되어 있습니다.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">전자금융</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>선불전자지급수단 정보</li>
+                                        </ul>
+                                        <p>전자금융업권 선불전자지급수단 정보의 거래내역에는 실제 구매한 상품명이 아닌 해당 상품의 <strong>상품의 카테고리(13항목으로 구분)</strong>가 전송되며, 소비생활 등에 관련된 <strong>가맹점명 정보</strong>, 송금인·수취인명 정보 등 본인의 사생활 및 경제활동 등에 관련된 <strong>거래메모 정보</strong>가 포함되어 있습니다.</p>
+                                        <ul class="bullet-list sm">
+                                            <li>결제 정보</li>
+                                        </ul>
+                                        <p>전자금융업권 결제 정보에는 실제 구매한 상품명이 아닌 해당 상품의 <strong>상품의 카테고리(13항목으로 구분)</strong>가 전송되며, 소비생활 등에 관련된 <strong>가맹점명 및 사업자등록번호정보</strong>, 송금인·수취인명 정보 등 본인의 사생활 및 경제활동 등에 관련된 <strong>거래메모 정보</strong>가 포함되어 있습니다.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">통신</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>통신 정보</li>
+                                        </ul>
+                                        <p>통신업권 결제내역 정보에는 소비생활 등에 관련된 <strong>가맹점명 정보</strong>가 포함되어 있습니다.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- // 2021-09-30 항목 수정 -->
+                </dd>
+                <!-- // 2021-10-28 해당 업권 및 전송을 요구하는 개인신용정보 유형에 해당할 때만 노출 -->
+
+                <dt>개인신용정보를 제공받는 자</dt>
+                <dd>KB차차차</dd>
+
+                <dt>전송을 요구하는 목적</dt>                
+                <!-- 2021-11-17 문구수정-->
+                <dd>전송요구를 통한 본인신용정보 통합조회, 데이터분석 서비스의 이용</dd>
+                <!-- // 2021-11-17 문구수정-->
+
+                <dt>전송을 요구하는 개인신용정보의 보유기간</dt>
+                <dd>서비스 이용 종료 시 또는 삭제요구시 까지</dd>
+
+                <dt>정기적 전송을 요구하는지 여부 및 요구하는 경우 그 주기</dt>
+                <dd>
+                    <div class="table-wrap">
+                        <table>
+                            <caption>테이블</caption>
+                            <colgroup>
+                                <col style="width:10.5rem">
+                                <col style="">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">정기적 전송 여부</th>
+                                    <td>예</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">주기</th>
+                                    <td>
+                                        <ul class="bullet-list sm">
+                                            <li>기본정보(주1회)</li>
+                                            <li>추가정보(주1회)</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </dd>
+                <dt>전송요구의 종료시점(전송요구서의 유효기간)</dt>
+                <dd>2021.09.31</dd> <!-- 2021-10-28 표기형식 수정 'yyyy-mm-dd' -> 'yyyy.mm.dd' -->
+                <!-- // 2021-10-01 위치 재조정 -->
+            </dl>
+        </div>
+        <div class="modal-footer">
+            <div class="btn-area">
+                <button type="button" class="btn-yellow"><span>동의</span></button>
+            </div>
+        </div>
+    </div>
+</div>

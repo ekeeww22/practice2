@@ -1,0 +1,135 @@
+<div class="modal-wrap CMYMCP101" data-type="toast" data-uicomponent="modal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3>서비스 이용 동의</h3><!-- 2010-10-01 띄어쓰기-->
+            <button class="modal-close">닫기</button>
+        </div>
+        <div class="modal-body">           
+
+            <!-- 2021-09-14 동의 박스 체크아이콘과 텍스트링크 분리타입 : 기존 마크업 변경 -->
+            <div class="agree-box">
+                <div class="agree-top">
+                    <label class="form-checkbox all-check">
+                        <input type="checkbox">
+                        <i class="icon"></i>
+                    </label>
+                    <a href="javascript:;" class="txt-link">전체동의</a>
+                </div>
+                <ul class="agree-list"><!-- 2021-09-30 약관리스트 갯수 및 문구 변경 -->
+                    <li>
+                        <label class="form-checkbox sm">
+                            <input type="checkbox">
+                            <i class="icon"></i>
+                        </label>
+                        <a href="javascript:;" class="txt-link">[필수] 마이데이터 서비스 이용 약관</a>
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                    </li>
+                    <li>
+                        <label class="form-checkbox sm">
+                            <input type="checkbox">
+                            <i class="icon"></i>
+                        </label>
+                        <a href="javascript:;" class="txt-link">[필수] 개인(신용)정보 수집·이용 동의</a>
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                    </li>
+                    <li>
+                        <label class="form-checkbox sm">
+                            <input type="checkbox">
+                            <i class="icon"></i>
+                        </label>
+                        <!-- 2021-11-25 문구변경 -->
+                        <a href="javascript:;" class="txt-link">[필수] 개인(신용)정보 수집·이용 동의서(내자산)</a>
+                        <!-- // 2021-11-25 문구변경 -->
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                    </li>
+                    <li>
+                        <label class="form-checkbox sm">
+                            <input type="checkbox">
+                            <i class="icon"></i>
+                        </label>
+                        <!-- 2021-11-25 문구변경 -->
+                        <a href="javascript:;" class="txt-link">[선택] 개인(신용)정보 수집·이용 동의(내차구매/차테크)</a><!-- 2021-10-12 bold 클래스 제거 -->
+                        <!-- // 2021-11-25 문구변경 -->
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                    </li>
+                    <!-- 2021-10-06  
+                        [선택] 개인(신용)정보 수집·이용 동의(마이데이터 관련 상품 및 서비스 안내) 선택시 
+                        [선택] 상품 서비스 안내 : 
+                        활성화를 위한 이전 요소 
+                        form-checkbox의 disabled 와
+                        input type="checkbox"의 disabled 삭제
+                    -->
+                    <li>
+                        <label class="form-checkbox sm">
+                            <input type="checkbox">
+                            <i class="icon"></i>
+                        </label>
+                        <a href="javascript:;" class="txt-link">[선택] 개인(신용)정보 수집·이용 동의(마이데이터 관련 상품 및 서비스 안내)</a>
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                    </li>                    
+                    <li>
+                        <label class="form-checkbox sm disabled"> <!-- // 2021-10-06 disabled 클래스 추가 -->
+                            <input type="checkbox" disabled> <!-- // 2021-10-06 disabled 속성 추가 -->
+                            <i class="icon"></i>
+                        </label>
+                        <a href="javascript:;" class="txt-link">[선택] 상품 서비스 안내</a>
+                        <!--  2021-10-01 삭제
+                        <span class="icon16 icon-arrow-right-gray">약관보기</span>
+                        -->
+                    </li>
+                    <!-- // 2021-10-06  
+                        [선택] 개인(신용)정보 수집·이용 동의(마이데이터 관련 상품 및 서비스 안내) 선택시 
+                        [선택] 상품 서비스 안내 : 
+                        활성화를 위한 이전 요소 
+                        form-checkbox의 disabled 와
+                        input type="checkbox"의 disabled 삭제
+                    -->
+                </ul>
+                <!-- 2021-09-30 마크업 추가 -->
+                <p class="sub-txt">전자적 전송매체를 통하여 상품 및 서비스에 관한 광고성 정보를 안내받을 수 있습니다.</p>
+                <p class="sub-txt">* 본 동의를 거부하시더라도 광고성 정보가 아닌 마이데이터 서비스 이용 관련 안내는 전송될 수 있습니다.</p>
+                <div class="type-inline">
+                    <p class="sub-tit">상품 서비스 안내수단 선택</p>
+                    <ul class="agree-list">
+                        <li>
+                            <label class="form-checkbox sm">
+                                <!-- // 2021-10-06  
+                                    [선택] 개인(신용)정보 수집·이용 동의(마이데이터 관련 상품 및 서비스 안내) 선택시 
+                                    [선택] 상품 서비스 안내 : 
+                                    활성화를 위한 이전 요소 
+                                    form-checkbox의 disabled 와
+                                    input type="checkbox"의 disabled 삭제
+                                -->
+                                <input type="checkbox" disabled>
+                                <i class="icon"></i>
+                                <span class="txt">앱푸시</span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="form-checkbox sm">
+                                <!-- // 2021-10-06  
+                                    [선택] 개인(신용)정보 수집·이용 동의(마이데이터 관련 상품 및 서비스 안내) 선택시 
+                                    [선택] 상품 서비스 안내 : 
+                                    활성화를 위한 이전 요소 
+                                    form-checkbox의 disabled 와
+                                    input type="checkbox"의 disabled 삭제
+                                -->
+                                <input type="checkbox" disabled>
+                                <i class="icon"></i>
+                                <span class="txt">문자(SMS)</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <!--// 2021-09-30 마크업 추가 -->
+
+            </div>
+            <!-- // 2021-09-14 동의 박스 체크아이콘과 텍스트링크 분리타입 : 기존 마크업 변경-->
+        </div>
+        <div class="modal-footer">
+            <div class="btn-area">
+                <button type="button" class="btn-yellow" disabled><span>다음</span></button><!-- 2021-10-13 필수 항목 전부 체크시 버튼 활성화 disabled 삭제-->
+            </div>
+        </div>
+    </div>
+</div>

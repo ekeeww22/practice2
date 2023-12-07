@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.CMYMCP110{
+    .body-120{
+        & + .body-120{
+            margin-top:1.6rem;
+        }
+    }
+}

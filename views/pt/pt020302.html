@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta class="" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+
+	<title>연습</title>
+
+	<link type="text/css" rel="stylesheet" href="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link type="text/css" rel="stylesheet" href="../../js/lib/slick/slick.css">
+	<link type="text/css" rel="stylesheet" href="../../css/app.css">
+
+	<script src="../../js/lib/jquery/jquery-3.3.1.min.js"></script>
+	<script src="../../js/lib/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script src="../../js/lib/slick/slick.js"></script>
+	<script src="../../js/uicomponent.js"></script>
+
+</head>
+<body>
+	<!-- wrap -->
+	<div class="wrap">
+		<!-- content-header -->
+		<div class="content-header">
+			<button type="button" class="btn-history-back">뒤로</button>
+			<h2>다른은행 등록</h2>
+		</div>
+		<!-- // content-header -->
+		<!-- content-body -->
+		<div class="content-body">
+			<!-- step list -->
+			<ul class="step-list">
+				<!-- active, end 클래스 추가 시 변경됨 -->
+				<li><span class="step-num end"></span></li>
+				<li><span class="step-num active">2</span></li>
+				<li><span class="step-num">3</span></li>
+				<li><span class="step-num">4</span></li>
+			</ul>
+			<!-- // step list -->
+			<!-- text explain area -->
+			<div class="text-explain-area">
+				<p class="ex-tit">계좌선택</p>
+				<p class="ex-txt">‘계좌연결’ 버튼을 누르시면,<br>선택된 계좌가 등록됩니다.</p>
+			</div>
+			<!-- // text explain area -->
+			<!-- card list -->
+			<div class="card-list">
+				<div class="card-list-tit">
+					<span class="tit">연동 가능 기관</span>
+					<span class="card-list-num">5</span>
+				</div>
+				<ul>
+					<li>
+						<div class="card-list-wrap">
+							<div class="card-list-header">
+								<div class="bank-tit">
+									<span class="img-bank-icon"><img src="../../images/icon/icon-26-bank-jeju@2x.png" alt=""></span>
+									<span class="tit">신한은행</span>
+								</div>
+								<span class="card-list-num">2</span>
+							</div>
+							<div class="card-list-container">
+								<ul class="check-list">
+									<li>
+										<span class="check-box type-sm">
+											<input type="checkbox" name="checkbox-2" id="checkbox-2-1">
+											<label for="checkbox-2-1">
+												<p class="tit">신한 기업종합통장 보통예금</p>
+												<p class="txt">100-2534-123579</p>
+												<div class="price-box">
+													<span class="price-tit">잔액</span>
+													<span class="price-txt">1,000,000,000</span>
+													<span class="unit">원</span>
+												</div>
+											</label>
+										</span>
+									</li>
+									<li>
+										<span class="check-box type-sm">
+											<input type="checkbox" name="checkbox-2" id="checkbox-2-2">
+											<label for="checkbox-2-2">
+												<p class="tit">신한 기업종합통장 보통예금</p>
+												<p class="txt">100-2534-123579</p>
+												<div class="price-box">
+													<span class="price-tit">잔액</span>
+													<span class="price-txt">1,000,000,000</span>
+													<span class="unit">원</span>
+												</div>
+											</label>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="card-list-wrap">
+							<div class="card-list-header">
+								<div class="bank-tit">
+									<span class="img-bank-icon"><img src="../../images/icon/icon-26-bank-jeju@2x.png" alt=""></span>
+									<span class="tit">농협</span>
+								</div>
+								<span class="card-list-num">1</span>
+							</div>
+							<div class="card-list-container">
+								<ul class="check-list">
+									<li>
+										<span class="check-box type-sm">
+											<input type="checkbox" name="checkbox-3" id="checkbox-3-1">
+											<label for="checkbox-3-1">
+												<p class="tit">농협 기업종합통장 보통예금</p>
+												<p class="txt">100-2534-123579</p>
+												<div class="price-box">
+													<span class="price-tit">잔액</span>
+													<span class="price-txt">1,000,000,000</span>
+													<span class="unit">원</span>
+												</div>
+											</label>
+										</span>
+									</li>
+									<li>
+										<span class="check-box type-sm">
+											<input type="checkbox" name="checkbox-3" id="checkbox-3-2">
+											<label for="checkbox-3-2">
+												<p class="tit">농협 기업종합통장 보통예금</p>
+												<p class="txt">100-2534-123579</p>
+												<div class="price-box">
+													<span class="price-tit">잔액</span>
+													<span class="price-txt">1,000,000,000</span>
+													<span class="unit">원</span>
+												</div>
+											</label>
+										</span>
+									</li>
+									<li>
+										<ul class="bullet-list type-circle-s">
+											<li class="bullet-list-txt">
+												'농협' 퇴직연금 계좌조회는 '원하는 기관 선택하여, 공동인증서로 연결' 하기에서 가능합니다. <br>
+												- 퇴직연금 담당자의 개인 인증서 필요
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="card-list-wrap">
+							<div class="card-list-header">
+								<div class="bank-tit">
+									<span class="img-bank-icon"><img src="../../images/icon/icon-26-bank-jeju@2x.png" alt=""></span>
+									<span class="tit">국세청</span>
+								</div>
+								<span class="card-list-num">1</span>
+							</div>
+							<div class="card-list-container">
+								<ul class="check-list">
+									<li>
+										<span class="check-box type-sm">
+											<input type="checkbox" name="checkbox-4" id="checkbox-4-1">
+											<label for="checkbox-4-1">
+												<p class="tit">국세청(전자세금계산서)</p>
+											</label>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<ul class="bullet-list type-circle-s">
+						<li class="bullet-list-txt">연동을 원하지 않는 계좌는 해제해 주시기 바랍니다.</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="card-list">
+				<div class="card-list-tit">
+					<span class="tit">연동 불가 기관</span>
+					<span class="card-list-num">2</span>
+				</div>
+				<!-- disabled 클래스 추가 시 변경됨 -->
+				<ul class="disabled">
+					<li>
+						<div class="card-list-wrap">
+							<div class="card-list-header">
+								<div class="bank-tit">
+									<span class="img-bank-icon"><img src="../../images/icon/icon-26-bank-jeju@2x.png" alt=""></span>
+									<span class="tit">신한은행</span>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="card-list-wrap">
+							<div class="card-list-header">
+								<div class="bank-tit">
+									<span class="img-bank-icon"><img src="../../images/icon/icon-26-bank-jeju@2x.png" alt=""></span>
+									<span class="tit">신한은행</span>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- // card list -->
+		</div>
+		<!-- // content-body -->
+	</div>
+	<!-- // wrap -->
+</body>
+</html>

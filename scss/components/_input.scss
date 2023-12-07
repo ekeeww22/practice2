@@ -1,0 +1,261 @@
+/* inp-list-wrap | type 모음 */
+.inp-list-wrap {
+    & > ul {
+        & > li {
+            margin-top:3.2rem;
+            &:first-child {margin-top:0;}
+            
+        }
+    }
+    .txt-error {display:none;}
+}
+
+/* input 변환 폼 */
+@mixin inp-box {
+    position:relative;
+    display:flex;
+    flex-wrap:nowrap;
+    border-bottom:1px solid #eee;
+    
+    &.default {
+        & > * {display:none;}
+        & > label,
+        & > input:first-of-type {display:block;}
+        
+        .inp-tit {
+            top:20px;
+            line-height:2.4rem;
+            font-size:1.6rem;
+            font-weight:400;
+            letter-spacing:-0.04rem; 
+            color:#888;
+        }
+    }
+    &.focus {border-bottom:1px solid #ffcc00;}
+    &.filled {border-bottom:1px solid #eee;}
+    &.disabled {
+        input {color:#888;}
+        &::placeholder {color:#888;}
+    }
+    &.error {border-bottom:1px solid red;}
+    &.error + .txt-error {
+        display:block;
+        margin-top:0.8rem;
+        line-height:1.6rem;
+        font-size:1.2rem;
+        font-weight:400;
+        letter-spacing:-0.02rem;
+        color:#f00;
+
+    }
+    &.type-number {
+        .confirm-wrap {
+            z-index:3;
+            position:absolute; 
+            right:0; 
+            bottom:0.6rem; 
+            .stop-time {
+                margin-right:0.8rem;
+                line-height:1.6rem;
+                vertical-align:1px;
+                font-size:1.2rem;
+                font-weight:400;
+                letter-spacing:-0.02rem;
+                color:#666;
+            }
+        }
+        input {
+            padding-right:7rem;
+            &:disabled {
+                color:#888;
+                &::placeholder {color:#888;}
+                & + .icon-close {display:none;}
+            }
+        }
+    }
+    &.type-mix {
+        .hypen {flex:inherit;}
+        .inp-num {
+            background-image:url(../../images/icon/date-full.svg);
+            background-repeat:no-repeat;
+            background-position-x:left;
+            background-position-y:calc(100% - 0.6rem);
+            &.active {background-image:url(../../images/icon/date-empty.svg);}
+        }
+    }
+    &.type-card {
+        position:relative;
+        &.default {
+            & > * {display:block;}
+            .inp-tit {
+                top:0.4rem; 
+                line-height:2rem; 
+                font-size:1.4rem; 
+                color:#888;
+            }
+        }
+        .hypen {flex:inherit;}
+        .card-point4 {opacity:0;}
+        .card-part {
+            flex:1;
+            z-index:2;
+            position:relative;
+            width:100%; 
+            height:6.4rem;
+            border:0;
+            .pw-point {
+                display:block;
+                padding:3rem 0 0.8rem;
+                width:100%;
+                height:100%;
+                font-size:0;
+                white-space:nowrap;
+                & > span {
+                    display:inline-block;
+                    margin-top:0.7rem;
+                    width:1.2rem;
+                    height:1.2rem; 
+                    border-radius:50%;
+                    background:#eee;
+                    font-size:0;
+                    text-indent:-9999px;
+                    overflow:hidden;
+                    & + span {margin-left:0.4rem;}
+                    &.point-active {background:#222;}
+                }
+            }
+        }
+        .pw-point-wrap {
+            z-index:1;
+            position:absolute;
+            top:0;
+            right:0;
+            width:25%;
+            height:6.4rem;
+            .card-part {
+                display:block;
+                width:100%;
+                .pw-point {margin-left:1.6rem;}
+            }
+        }
+    }
+    &.type-search {
+        position:relative;
+        height:4.8rem;
+        border-bottom:0;
+        input {
+            padding:0 8.8rem 0 1.6rem;
+            width:100%;
+            height:100%;
+            border:0;
+            border-radius:1.2rem;
+            outline:0;
+            font-size:1.4rem;
+            font-weight:500;
+            background:#f8f8f8;
+            &::placeholder {
+                line-height:2rem;
+                font-size:1.4rem;
+                color:#888;
+            }
+        }
+        .icon-close {
+            z-index:3;
+            position:absolute;
+            top:50%;
+            right:5.6rem;
+            transform:translateY(-50%);
+            background:url(../../images/icon/icon-close-round.svg) no-repeat center/contain;
+        }
+        .icon-search {
+            z-index:3;
+            position:absolute;
+            display:block;
+            top:50%;
+            right:1.6rem;
+            transform:translateY(-50%);
+
+        }
+    }
+    .inp-tit {
+        z-index:1;
+        position:absolute;
+        top:4px;
+        left:0;
+        line-height:2rem;
+        color:#888;
+        font-size:1.4rem;
+        font-weight:400;
+        letter-spacing:-0.02rem; 
+    }
+    input {
+        flex:1;
+        z-index:2;
+        position:relative;
+        padding:3rem 0 0.8rem;
+        width:100%;
+        height:6.4rem;
+        border:0;
+        font-size:1.8rem;
+        font-weight:500;
+        color:#222;
+    }
+    .hypen {
+        position:relative;
+        margin:0 0.8rem;
+        width:0.8rem;
+        height:6.4rem;
+        text-align:-9999px;
+        font-size:0;
+        &::after {
+            position:absolute;
+            bottom:2rem;
+            left:0;
+            display:block;
+            content:'';
+            width:0.8rem;
+            height:0.1rem;
+            background:#999;
+        }
+    }
+}
+.inp-box {@include inp-box;}
+
+/* select 변환 form */
+.select-box {
+    @include inp-box;
+    &.default {
+        & > select {display:block;}
+    }
+    &.filled.focus {border-bottom:0.1rem solid #ffcc00;}
+    select {
+        z-index:2;
+        position:relative;
+        padding:3rem 4rem 0.8rem 0;
+        width:100%;
+        height:6.4rem;
+        border:0;
+        font-size:1.8rem;
+        font-weight:500;
+        color:#222;
+        appearance:none;
+        -webkit-appearance:none;
+        background:url(../../images/icon/icon-arrow-bottom-gray.svg) no-repeat calc(100% - 1.6rem) center;
+
+        &:disabled {color:#888;}
+    }
+}
+
+
+/* 날짜 검색 form */
+.date-search-wrap {
+    display:flex; flex-wrap:wrap; align-items:center;
+    & > .date-box {flex:1;}
+    .dash {display:inline-block; margin:0 0.8rem; min-width:0.8rem; height:0.1rem; text-indent:-9999px; font-size:0; background:#999;}
+    .date-box {
+        position:relative; width:100%; height:4rem; display:inline-block;
+        input {padding:0 1.6rem; width:100%; height:100%; line-height:2rem; border:0.1rem solid #eee; border-radius:1.2rem; font-size:1.4rem; color:#666; }
+        .icon-calendar {position:absolute; top:50%; right:1.6rem; transform:translateY(-50%);}
+    }
+}
+

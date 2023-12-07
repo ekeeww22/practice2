@@ -1,0 +1,45 @@
+<div class="modal-wrap CMYMCP108" data-type="toast" data-uicomponent="modal">
+    <div class="modal">
+        <!-- 헤더 스크립트 필요 -->
+        <div class="modal-header">
+            <h3>인증서 본인확인서비스 이용약관</h3>
+            <button class="modal-close">닫기</button>
+        </div>
+        <div class="modal-body">
+            <div class="terms-wrap">
+                <div class="agree-pop-slide-area">
+                    <div class="agree-pop-slide">
+                        <div id="terms" class="agree-pop-con">
+                            <iframe width="100%" height="100%" src="https://webqa.crosscert.com/mydata/terms.html"></iframe>
+                        </div>
+                        <div class="agree-pop-con">
+                            <iframe width="100%" height="100%" src="https://webqa.crosscert.com/mydata/privacy_agreement.html"></iframe>
+                        </div>
+                        <div class="agree-pop-con">
+                            <iframe width="100%" height="100%" src="https://webqa.crosscert.com/mydata/condignment_agreement.html"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="btn-area">
+                <button type="button" class="btn-yellow"><span>전체동의</span></button>
+            </div>
+        </div>
+        <!-- 2021-08-18 타이틀 변경으로 스크립트 추가-->
+        <script>
+            (function(){
+                $(".agree-pop-slide-area .agree-pop-slide").slick({
+                    dots: false,
+                    arrows: true,
+                    slidesToShow: 1,
+                    infinite: false,
+                    centerMode: true,
+                    centerPadding:'0'
+                });
+                //$('#terms').load('https://webqa.crosscert.com/mydata/terms.html');
+            })();
+        </script>
+    </div>
+</div>

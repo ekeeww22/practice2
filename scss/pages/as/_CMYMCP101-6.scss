@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.CMYMCP101-6 {
+    .finger-arrow-list-item {
+        padding-top:0.8rem;
+    }
+    .table-area-type {
+        .table-wrap {
+            border-top:0px solid #eee;
+            table {
+                thead {
+                    th {
+                        border:1px solid #eee;
+                        padding:1.2rem 0.8rem;
+                    }
+                }
+                tbody {
+                    td {
+                        border:1px solid #eee;
+                        padding:1.2rem 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+

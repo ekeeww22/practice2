@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.CMYMCP105{
+    .step-info{
+        margin-top:1.6rem;
+        padding:0;
+        border:none;
+        > ul{
+            > li{
+                padding:1.4rem 1.6rem 1.4rem 4.2rem;
+                @include font-color-black-100;
+                border-radius:1.2rem;
+                @include bg-color-gray-200;
+                .num{
+                    top:1.6rem;
+                    left:1.8rem;
+                    z-index:1;
+                }
+            }
+        }
+    }
+    .body-120{
+        margin-top:2.4rem;
+        a{
+            @include body-120;
+            text-decoration:underline;
+        }
+    }
+    .body-210{
+        margin-top:1.6rem;
+    }
+}

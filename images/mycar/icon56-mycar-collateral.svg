@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>04_Icon/56/garage/icon_56_loan_collateral</title>
+    <g id="내차고_수정" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04내차고_01메인_03Case_내차예상판매가/차계부/대출/보험/벌점_CMYMGA001-" transform="translate(-279.000000, -1208.000000)">
+            <g id="다이렉트대출" transform="translate(16.000000, 1138.000000)">
+                <g id="02담보대출" transform="translate(0.000000, 46.000000)">
+                    <g id="icon_56_loan_collateral" transform="translate(263.000000, 24.000000)">
+                        <rect id="Rectangle" fill="#F8F8F8" x="0" y="0" width="56" height="56" rx="18"></rect>
+                        <g id="Group-23" transform="translate(12.000000, 12.000000)">
+                            <g id="Group-3" transform="translate(2.000000, 2.000000)">
+                                <path d="M19.3547763,25.8063684 L2.39999226,25.8063684 C1.07419008,25.8063684 0,24.7102429 0,23.3566988 L0,3.87095525 L16.954784,3.87095525 C18.279941,3.87095525 19.3547763,4.96772591 19.3547763,6.31997961 L19.3547763,25.8063684" id="Fill-401" fill="#FFFFFF"></path>
+                                <path d="M19.3103248,20.7541344 L19.3103248,11.2999482 L19.3103248,5.89676435 C19.3225828,4.91772591 18.2490379,3.87095525 17.2412992,3.87095525 L6.45159207e-05,3.87095525 L6.45159207e-05,5.89676435 L6.45159207e-05,9.27290759 L6.45159207e-05,22.7799435 C6.45159207e-05,23.758982 1.07231912,24.8063684 2.0690901,24.8063684 L20,24.8063684" id="Stroke-402" stroke="#222222" stroke-width="1.6"></path>
+                                <path d="M14.1064329,6.45159209 L14.1064329,2.15031564 C14.1064329,1.06967397 13.6754713,0 12.169979,0 L5.80643288,0 L5.80643288,6.45159209" id="Stroke-406" stroke="#222222" stroke-width="1.5"></path>
+                                <g id="w" transform="translate(5.000000, 11.666667)" stroke="#070100" stroke-linecap="round" stroke-width="1.3">
+                                    <path d="M1.28571429,0 C1.51778571,0.85 1.76785714,1.70166667 2.0385,2.55388889 C2.30914286,3.40666667 2.60871429,4.22222222 2.93464286,5 L4.48778571,0.251111111 L4.5,0.251111111 L6.066,5 C6.21064286,4.65111111 6.33471429,4.30611111 6.498,3.89222222 C6.66128571,3.47888889 6.79628571,3.04888889 6.939,2.60388889 C7.083,2.16 7.22314286,1.705 7.35235714,1.26611111 C7.48221429,0.821666667 7.6005,0.400555556 7.71428571,0" id="Stroke-451" stroke-linejoin="round"></path>
+                                    <line x1="-7.13714802e-17" y1="2.25" x2="1.28552143" y2="2.25" id="Stroke-452"></line>
+                                    <line x1="9" y1="2.25" x2="7.71409286" y2="2.25" id="Stroke-453"></line>
+                                </g>
+                            </g>
+                            <g id="Group-25" transform="translate(18.000000, 15.000000)">
+                                <g id="-" fill="#FFCC00">
+                                    <ellipse id="Oval" cx="6" cy="1.45502646" rx="6" ry="1.45502646"></ellipse>
+                                    <ellipse id="Oval-Copy" cx="6" cy="12.1252205" rx="6" ry="1.45502646"></ellipse>
+                                    <polygon id="Rectangle" points="0 1.94003527 12 1.94003527 12 12.6102293 0 12.6102293"></polygon>
+                                </g>
+                                <path d="M0,7 C0,8.28916667 2.6856,9.33333333 6,9.33333333 C9.3144,9.33333333 12,8.28916667 12,7" id="Stroke-7" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                                <path d="M0,2.33333333 C0,3.6225 2.6856,4.66666667 6,4.66666667 C9.3144,4.66666667 12,3.6225 12,2.33333333" id="Stroke-9" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                                <path d="M5.9988,1.13686838e-13 C2.6868,1.13686838e-13 -0.0012,1.04533333 0.00119839411,2.33333333" id="Stroke-11" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                                <path d="M5.45696821e-12,2.33333333 L5.45696821e-12,11.6666667 C5.45696821e-12,12.9558333 2.6856,14 6,14" id="Stroke-13" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                                <path d="M5.9988,1.13686838e-13 C9.3108,1.13686838e-13 11.9988,1.04533333 11.9964016,2.33333333" id="Stroke-15" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                                <path d="M11.9988,2.33333333 L11.9988,11.6666667 C11.9988,12.9558333 9.3132,14 5.9988,14" id="Stroke-17" stroke="#222222" stroke-width="1.5" stroke-linejoin="round"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

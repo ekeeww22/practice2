@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.CMYMCP366 { 
+    .modal-body {
+        .inline-select {
+            margin-top:1.5rem;
+            + .terms-area {
+                .terms-wrap {
+                    &.first {
+                        padding-top:2.3rem;
+                    }
+                }
+            }
+        }
+        .modal-txt {
+            margin-top:2.3rem;
+            font-weight:400;
+            font-size:1.6rem;
+            line-height:2.4rem;
+            letter-spacing:-0.04rem;
+            color:#666;
+        }
+        .modal-btn-area {
+            margin-top:1.6rem;
+            text-align:right;
+        }
+        .confirm-area {
+            position:relative;
+            min-height:37.5vh;
+            margin-top:2rem;
+
+            &.bcf4f4f4 {
+                background-color:#f4f4f4;
+            }
+            &.b1sdddddd {
+                border:0.1rem solid #ddd;
+            }
+
+            .confirm-txt {
+                position:absolute;
+                top:50%;
+                transform:translateY(-50%);
+                left:0;
+                width:100%;
+                font-size:2rem;
+                text-align:center;
+                line-height:3rem;
+                letter-spacing:-0.05rem;
+                color:#222;
+                font-weight:700;
+            }
+        }
+    }
+}

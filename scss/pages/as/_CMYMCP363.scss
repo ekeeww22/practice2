@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.CMYMCP363{
+    .terms-box{
+        margin-top:3.2rem;
+    }
+    .confirm-area { 
+        margin-top:2.3rem;
+        background-color:rgba(255,0,0,0.3);
+        position:relative;
+        height:62vh;
+
+        .confirm-txt {  
+            display:block;
+            text-align:center;
+            font-size:2.8rem;
+            letter-spacing:-0.07rem;
+            position:absolute; 
+            top:50%;
+            left:0;
+            width:100%;
+            transform:translateY(-50%);
+            color:#ffffff;
+            font-weight:700;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+/* filter */
+.filter-area {
+    display:flex; align-items:center; justify-content:flex-end; height:4rem;
+    .period {
+        li {
+            position:relative; display:inline-block; line-height:2rem; font-size:1.4rem; color:#666;
+            & + li {
+                margin-left:0.8rem; padding-left:0.9rem;
+                &::before {position:absolute; top:50%; left:0; display:inline-block; content:''; width:0.1rem; height:1.2rem; background:#ddd; transform:translateY(-50%);}
+            }
+            
+        }
+    }
+    .icon-filter {margin-left:0.8rem;}
+}

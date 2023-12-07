@@ -1,0 +1,20 @@
+/* myp start */
+@import 'components/_button';
+@import 'components/_icon';
+@import 'components/_input';
+@import 'components/_checkbox';
+@import 'components/_radio';
+@import 'components/_tab';
+@import 'components/_select';
+@import 'components/_accordion';
+@import 'components/_tag';
+@import 'components/_switch';
+@import 'components/_tooltip';
+@import 'components/_filter';
+@import 'components/_scroll';
+
+/* info-txt */
+.info-txt {
+    position:relative; padding-left:2rem; line-height:2rem; font-size:1.4rem; color:#666;
+    i {position:absolute; top:0.2rem; left:0;}
+}

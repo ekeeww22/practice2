@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.CMYMCP365{
+    .modal-body { min-height:90vh; }
+    .confirm-list{
+        margin-top:2.4rem;
+        dt{
+            @include contents-title-300;
+            & + dd{
+                margin-top:1.6rem;
+            }
+        }
+        dd{
+            margin-top:0.8rem;
+            @include body-120;
+            & + dt{
+                margin-top:3.2rem;
+            }
+        }
+    }
+    .bullet-list { 
+        li { 
+            line-height: 2.4rem;
+            color: #666;
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: -0.04rem;
+            position: relative;
+            margin-top: 1.6rem;
+            padding-left: 1.2rem;
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 1rem;
+                left: 0;
+                width: 0.4rem;
+                height: 0.4rem;
+                border-radius: 50%;
+                background: #888;
+            }
+
+            &:first-child { 
+                margin-top: 0;
+            }
+        }
+    }
+    .confirm-area { 
+        margin-top:2.3rem;
+        background-color:rgba(255,0,0,0.3);
+        position:relative;
+        height:62vh;
+
+        .confirm-txt {  
+            display:block;
+            text-align:center;
+            font-size:2.8rem;
+            letter-spacing:-0.07rem;
+            position:absolute; 
+            top:50%;
+            left:0;
+            width:100%;
+            transform:translateY(-50%);
+            color:#ffffff;
+            font-weight:700;
+        }
+    }
+}

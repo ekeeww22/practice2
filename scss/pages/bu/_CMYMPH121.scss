@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.CMYMPH121 {
+    .result-box{
+        position:fixed;
+        top:calc(50% - 4.8rem);
+        left:0;
+        width:100%;
+        transform:translateY(-50%)
+    }
+    P {
+        &.tit,
+        &.txt {
+            padding-left:1.6rem;
+            padding-right:1.6rem;
+        }
+    }
+
+    .icon59-ipin {
+        display: inline-block;
+        width:5.9rem;
+        height:4.8rem;
+        overflow:hidden;
+        text-indent:-9999px;
+        font-size: 0;
+        background-color:transparent;
+        vertical-align:middle;
+        background:url(../images/bu/icon59-ipin.png) no-repeat center/contain;
+    }
+
+    .btn-area {
+        padding:2.4rem 1.6rem 0;
+
+        button {
+            line-height:4.8rem;
+
+            span {
+                font-size:1.6rem;
+                line-height:2.4rem;
+                letter-spacing:-0.04rem;
+            }
+        }
+    }
+}
